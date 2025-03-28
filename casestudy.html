@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Tech Insights</title>
+    <link rel="stylesheet" href="casestudy.css">
+</head>
+<body>
+    <header>
+        <h1>Future Tech Insights</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Future Tech Insights</h2>
+        <video width="600" controls>
+            <source src="tech-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Explore emerging technologies and innovations shaping the future.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our blog is dedicated to bringing you the latest insights on cutting-edge technologies.</p>
+        <table border="1">
+            <tr>
+                <th>Category</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>AI & Machine Learning</td>
+                <td>Exploring intelligent systems and automation.</td>
+            </tr>
+            <tr>
+                <td>Blockchain</td>
+                <td>Understanding decentralized finance and security.</td>
+            </tr>
+        </table>
+        <p>Check out our <a href="#">recent articles</a>.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="th.jpg" alt="Tech Infographic" width="300">
+        <img src="th (1).jpg" alt="Tech Event" width="300">
+        <audio controls>
+            <source src="tech-podcast.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="email">Subscribe to our Newsletter:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="suggestion">Suggest a Topic:</label>
+            <textarea id="suggestion" name="suggestion"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Future Tech Insights. All rights reserved.</p>
+    </footer>
+</body>
+</html>
